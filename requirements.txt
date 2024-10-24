@@ -1,0 +1,31 @@
+#list of packages to be installed (execute next line)
+
+###pip install -r requirements.txt
+
+
+
+#You can specify the version with ==, >, >=, <, <=, etc. If the version is omitted, the latest version is installed.
+
+###### Requirements without Version Specifiers ######
+
+#app specific
+		PyMuPDF
+		python-docx
+		camelot
+		pdfplumber
+		aspose-pdf
+
+###### Requirements with Version Specifiers ######
+
+
+#package == 0.6.1             # Version Matching. Must be version 0.6.1
+#package >= 4.1.1            # Minimum version 4.1.1
+#package != 3.5             # Version Exclusion. Anything except version 3.5
+#package ~= 1.1        # Compatible release. Same as >= 1.1, == 1.*
+
+
+
+#Two conditions can be specified by separating them with a comma ,. 
+#In the following example, a version of 1.0 or later and 2.0 or earlier (= 1.0 <= ver <= 2.0) is installed.
+
+#package >= 1.0, <=2.0

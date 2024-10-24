@@ -1,0 +1,22 @@
+#to make this file notepad file .gitignore. --> dot at the end is important
+
+settings.json
+
+#ignore compiled python files
+*.pyc
+__pycache__
+__pycache__/
+
+
+
+#ignore setupfiles
+.env*
+
+#ignore all virtual environment files
+venv/
+env/
+
+
+#ignore files in folders
+input_files/*
+output_files/*
